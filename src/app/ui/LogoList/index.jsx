@@ -24,15 +24,20 @@ const partnerLogos = [
 export default function LogoList() {
   return (
     <Div className="cs-partner_logo_wrap">
-      <Swiper
+     <Swiper
         modules={[Autoplay]}
-        slidesPerView={5} // Adjust the number of logos visible at a time
-        spaceBetween={20} // Space between slides
         autoplay={{
-          delay: 1000, // Delay between transitions
+          delay: 2000, 
           disableOnInteraction: false,
         }}
-        loop={true} // Infinite loop
+        loop={true}
+        breakpoints={{
+          320: { slidesPerView: 2, spaceBetween: 10 }, // Mobile
+          480: { slidesPerView: 3, spaceBetween: 15 }, // Small tablets
+          768: { slidesPerView: 4, spaceBetween: 20 }, // Tablets
+          1024: { slidesPerView: 5, spaceBetween: 25 }, // Laptops
+          1200: { slidesPerView: 6, spaceBetween: 30 }, // Desktops
+        }}
       >
         {partnerLogos.map((partnerLogo, index) => (
           <SwiperSlide key={index}>
