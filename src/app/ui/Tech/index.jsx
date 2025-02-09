@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 import SectionHeading from "../SectionHeading";
 import Spacing from "../Spacing";
+import "../../../../styles/cards.css"
 const categories = [
   {
     title: "Front-end",
@@ -72,12 +73,11 @@ const IconWithText = ({ icon, text }) => (
 const CategoryCard = ({
   title,
   items,
-  cardStyle,
   onMouseEnter,
   onMouseLeave,
 }) => (
   <div
-    style={cardStyle}
+    className="card"
     onMouseEnter={onMouseEnter}
     onMouseLeave={onMouseLeave}
   >
@@ -97,7 +97,6 @@ const Home = () => {
     <div style={styles.container}>
       <header style={styles.header}>
         <Spacing lg="145" md="80" />
-
         <SectionHeading
           title="Creating Magic in Digital World"
           subtitle="Our Technologies"
@@ -108,24 +107,11 @@ const Home = () => {
       <main style={styles.grid}>
         {categories.map((category, index) => {
           const isHovered = hoverIndex === index;
-          const cardStyle = {
-            background: "#000",
-            borderRadius: "8px",
-            boxShadow: isHovered
-              ? "#1085dc 0px 4px 16px 0px"
-              : "gray 0px 2px 8px 0px",
-            padding: "20px",
-            width: "30%",
-            cursor: "pointer",
-            transition: "box-shadow 0.3s ease",
-          };
-
           return (
             <CategoryCard
               key={index}
               title={category.title}
               items={category.items}
-              cardStyle={cardStyle}
               onMouseEnter={() => setHoverIndex(index)}
               onMouseLeave={() => setHoverIndex(null)}
             />
@@ -142,7 +128,7 @@ const styles = {
   },
   grid: {
     display: "flex",
-    gridTemplateColumns: "repeat(3, 1fr)", // Three cards in one row
+    // backgroundColor:"red",
     gap: "20px",
     flexWrap: "wrap",
     justifyContent: "space-between",
