@@ -1425,11 +1425,15 @@ label {
 @media screen and (max-width: 991px) {
   .cs-section_heading.cs-style1 {
     .cs-section_title {
-      font-size: 36px;
+      font-size: 32px;
     }
     .cs-section_subtitle {
       font-size: 16px;
       margin-bottom: 15px;
+      text-align: center;
+    }
+    .cs-section_title {
+      text-align: center;
     }
   }
   .cs-shape_wrap_4 .cs-shape_4:nth-child(1),

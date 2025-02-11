@@ -32,10 +32,25 @@ export default function Header({ variant }) {
           <Div className="container">
             <Div className="cs-main_header_in">
               <Div className="cs-main_header_left">
-              <Link style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%" }} className="cs-site_branding" href="/">
+                <Link
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    height: "100%",
+                  }}
+                  className="cs-site_branding"
+                  href="/"
+                >
                   <img src="/images/upsurgelogos/mark.png" alt="Logo" />
                   <div style={{ marginLeft: "10px" }}>
-                    <h1 style={{ fontSize: "28px", margin: "0" }}> <span style={{ color: "#1085dc" }}>UPSURGE</span> MEDIA</h1>
+                    <h1 style={{ fontSize: "28px", margin: "0" }}>
+                      {" "}
+                      <span style={{ color: "#1085dc", cursor: "pointer" }}>
+                        UPSURGE
+                      </span>{" "}
+                      <span style={{ cursor: "pointer" }}>MEDIA</span>{" "}
+                    </h1>
                   </div>
                 </Link>
               </Div>
@@ -50,7 +65,7 @@ export default function Header({ variant }) {
                         Home
                       </Link>
                     </li>
-                  
+
                     <li className="">
                       <Link
                         href="/service"
@@ -66,7 +81,6 @@ export default function Header({ variant }) {
                       >
                         Portfolio
                       </Link>
-                   
                     </li>
                     {/* <li className="menu-item-has-children">
                       <Link href="/blog" onClick={() => setMobileToggle(false)}>
@@ -118,15 +132,13 @@ export default function Header({ variant }) {
                       </Link>
                     </li>
                     <li className="">
-                    <Link
-                              href="/contact"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Contact
-                            </Link>
-                    
+                      <Link
+                        href="/contact"
+                        onClick={() => setMobileToggle(false)}
+                      >
+                        Contact
+                      </Link>
                     </li>
-                  
                   </ul>
                   <span
                     className={
@@ -176,15 +188,13 @@ export default function Header({ variant }) {
         <Div className="cs-side_header_in">
           <Div className="cs-side_header_shape" />
           <Link className="cs-site_branding" href="/">
-            {/* <img src="/images/footer_logo.svg" alt="Logo" /> */}
             <h1 style={{ fontSize: "28px" }}>
-              {" "}
               <span style={{ color: "#004AAD" }}>UPSURGE</span> MEDIA
             </h1>
           </Link>
           <Div className="cs-side_header_box">
             <h2 className="cs-side_header_heading">
-              Do you have a project in your <br /> mind? Keep connect us.
+              Do you have a project in your <br /> mind? Connect with us.
             </h2>
           </Div>
           <Div className="cs-side_header_box">

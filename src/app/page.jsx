@@ -72,6 +72,7 @@ const portfolioData = [
   {
     title: "Navstream.in",
     href: "/portfolio/portfolio-details",
+    url:"https://navstream.in/",
     src: "/images/portfolio/navstream.png",
     category: "web_development",
     btnLink: "/navstream",
@@ -80,6 +81,7 @@ const portfolioData = [
   {
     title: "Articult",
     href: "/portfolio/portfolio-details",
+    url:"https://articult.in/",
     src: "/images/portfolio/articult.png",
     category: "web_development",
     btnLink: "/articult",
@@ -96,6 +98,7 @@ const portfolioData = [
   {
     title: "Cognileap Eduventures",
     href: "/portfolio/portfolio-details",
+    link:"http://cognileap.s3-website.ap-south-1.amazonaws.com/",
     src: "/images/portfolio/cognileap.png",
     category: "web_development",
     btnLink: "/cognileap",
@@ -104,6 +107,7 @@ const portfolioData = [
   {
     title: "Kicks & Co",
     href: "/portfolio/portfolio-details",
+    link:"https://www.kicksandco.in/",
     src: "/images/portfolio/kicksandco.png",
     category: "web_development",
     btnLink: "/kicksandco",
@@ -206,7 +210,18 @@ export default function Home() {
         </Div>
       </Div>
       {/* End Projects Section */}
+      <Spacing lg="150" md="80" />
 
+      <Div className="container">
+        <SectionHeading
+          title="Our reputed partner"
+          subtitle="Top Clients"
+          variant="cs-style1 text-center"
+        />
+        <Spacing lg="70" md="45" />
+        <LogoList />
+      </Div>
+      {/* <Spacing lg="150" md="80" /> */}
       {/* Start Awards Section */}
       {/* <Spacing lg="140" md="80" /> */}
       
@@ -227,16 +242,7 @@ export default function Home() {
       {/* End Blog Section */}
 
       {/* Start LogoList Section */}
-      <Div className="container">
-        <SectionHeading
-          title="Our reputed partner"
-          subtitle="Top Clients"
-          variant="cs-style1 text-center"
-        />
-        <Spacing lg="70" md="45" />
-        <LogoList />
-      </Div>
-      <Spacing lg="150" md="80" />
+     
       {/* End LogoList Section */}
 
       {/* Start CTA Section */}

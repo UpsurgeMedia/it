@@ -70,16 +70,16 @@ export default function FaqPage() {
           </Div>
         </Div>
       </Div>
-      <Spacing lg="150" md="80" />
+      {/* <Spacing lg="150" md="80" /> */}
       {/* Start CTA Section */}
-      <Div className="container">
+      {/* <Div className="container">
         <Cta
           title="Let’s discuss make <br />something <i>cool</i> together"
           btnText="Book a free Consultation"
           btnLink="/contact"
           bgSrc="/images/cta_bg.jpeg"
         />
-      </Div>
+      </Div> */}
       {/* End CTA Section */}
     </>
   );
