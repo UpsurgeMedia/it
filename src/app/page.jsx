@@ -43,29 +43,29 @@ const funfaceData = [
 const serviceData1 = [
   {
     title: "UI/UX Design",
-    href: "/service/service-details",
+    href: "/service/ui-ux-design",
   },
   {
     title: "Web Development",
-    href: "/service/service-details",
+    href: "/service/web-development",
   },
   {
     title: "App Development",
-    href: "/service/service-details",
+    href: "/service/web-development",
   },
 ];
 const serviceData2 = [
   {
-    title: "SEO",
-    href: "/service/service-details",
+    title: "Android Development",
+    href: "/service/android-app-development",
   },
   {
-    title: "Google/Meta Ads",
-    href: "/service/service-details",
+    title: "IOS Development",
+    href: "/service/ios-development",
   },
   {
     title: "Cross Platform Applications",
-    href: "/service/service-details",
+    href: "/service/cross-platform-application",
   },
 ];
 const portfolioData = [

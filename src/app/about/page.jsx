@@ -52,7 +52,7 @@ export default function AboutPage() {
               subtitle="About Our Company"
             >
               <Spacing lg="30" md="20" />
-              <p className="cs-m0">
+              <p className="cs-m0 text-justify">
                 We are more than a Software Development Agency your dedicated
                 growth partner. <br />
                 Founded on the belief that every brand has a unique story to
