@@ -1,4 +1,5 @@
-'use client'
+'use client';
+
 import Accordion from "../../ui/Accordion";
 import Button from "../../ui/Button";
 import Cta from "../../ui/Cta";
@@ -9,46 +10,46 @@ import SectionHeading from "../../ui/SectionHeading";
 import TestimonialSlider from "../../ui/Slider/TestimonialSlider";
 import Spacing from "../../ui/Spacing";
 import Image from "next/image";
-import serviceImage from '../../../../public/images/service_img_1.jpeg'
+import serviceImage from '../../../../public/images/uiux_service.jpeg';
 
 export default function ServiceDetailsPage() {
   return (
     <>
       <PageHeading 
-        title='iOS App Development'
-        bgSrc='/images/service_hero_bg.jpeg'
-        pageLinkText='IOS-APP-DEVELOPMENT'
+        title='UI/UX Design Services'
+        bgSrc='/images/uiux_hero_bg.jpeg'
+        pageLinkText='UI-UX-DESIGN'
       />
       <Spacing lg='145' md='80'/>
       <Div className="container">
         <SectionHeading 
-          title='Building Cutting-Edge iOS Applications' 
-          subtitle='iOS Development' 
+          title='Crafting Exceptional Digital Experiences' 
+          subtitle='UI/UX Design' 
           variant='cs-style1 text-center'
         />
         <Spacing lg='90' md='45'/>
         <Div className="row">
           <Div className="col-lg-4">
             <IconBox
-              icon='/images/icons/service_icon_1.svg'
-              title='Custom iOS Apps'
-              subtitle='We design and develop tailor-made iOS applications that align with your business goals and provide an exceptional user experience.'
+              icon='/images/icons/uiux_icon_1.svg'
+              title='User-Centered Design'
+              subtitle='We create intuitive and user-friendly designs that enhance user engagement and satisfaction.'
             />
             <Spacing lg='30' md='30'/>
           </Div>
           <Div className="col-lg-4">
             <IconBox
-              icon='/images/icons/service_icon_2.svg'
-              title='Scalable & Secure'
-              subtitle='Our iOS apps are built with scalability and security in mind, ensuring smooth performance and data protection.'
+              icon='/images/icons/uiux_icon_2.svg'
+              title='Wireframing & Prototyping'
+              subtitle='Our design process includes wireframes and interactive prototypes to visualize the user journey.'
             />
             <Spacing lg='30' md='30'/>
           </Div>
           <Div className="col-lg-4">
             <IconBox
-              icon='/images/icons/service_icon_3.svg'
-              title='App Store Deployment'
-              subtitle='We assist in launching your iOS app on the Apple App Store, ensuring compliance with all guidelines and best practices.'
+              icon='/images/icons/uiux_icon_3.svg'
+              title='Design System & Branding'
+              subtitle='We build cohesive design systems and brand identities that ensure consistency across platforms.'
             />
             <Spacing lg='30' md='30'/>
           </Div>
@@ -66,7 +67,7 @@ export default function ServiceDetailsPage() {
           <Div className="row">
             <Div className="col-xl-5 col-lg-6">
               <SectionHeading
-                title='Common Questions About iOS Development' 
+                title='Common Questions About UI/UX Design' 
                 subtitle='FAQ’s'
               />
               <Spacing lg='90' md='45'/>
@@ -80,12 +81,12 @@ export default function ServiceDetailsPage() {
       <Spacing lg='150' md='80'/>
       <Div className="container">
         <Cta 
-          title='Let’s discuss and create <br />something <i>extraordinary</i> together' 
+          title='Let’s collaborate and design <br />something <i>extraordinary</i> together' 
           btnText='Book a Free Consultation' 
           btnLink='/contact' 
-          bgSrc='/images/cta_bg.jpeg'
+          bgSrc='/images/uiux_cta_bg.jpeg'
         />
       </Div>
     </>
-  )
+  );
 }
