@@ -40,10 +40,10 @@ export default function PortfolioPage() {
       <Div className="cs-portfolio_1_heading">
         <Div className="cs-filter_menu cs-style1"></Div>
       </Div>
-      <Div className="row gy-4"> {/* ✅ Added gy-4 for better spacing on mobile */}
+      <Div className="row gy-4 mt-5"> {/* ✅ Added gy-4 for better spacing on mobile */}
         {portfolioData.slice(0, itemShow).map((item, index) => (
           <Div
-            className={`col-12 col-sm-6 col-md-4 ${active === "all" ? "" : active !== item.category ? "d-none" : ""}`}
+            className={`mt-5 col-12 col-sm-6 col-md-4 ${active === "all" ? "" : active !== item.category ? "d-none" : ""}`}
             key={index}
           >
             <Portfolio
