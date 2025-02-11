@@ -1,23 +1,19 @@
 'use client';
 
 import Accordion from "../../ui/Accordion";
-import Button from "../../ui/Button";
 import Cta from "../../ui/Cta";
 import Div from "../../ui/Div";
 import IconBox from "../../ui/IconBox";
 import PageHeading from "../../ui/PageHeading";
 import SectionHeading from "../../ui/SectionHeading";
-import TestimonialSlider from "../../ui/Slider/TestimonialSlider";
 import Spacing from "../../ui/Spacing";
-import Image from "next/image";
-import serviceImage from '../../../../public/images/uiux_service.jpeg';
 
 export default function ServiceDetailsPage() {
   return (
     <>
       <PageHeading 
         title='UI/UX Design Services'
-        bgSrc='/images/uiux_hero_bg.jpeg'
+        bgSrc='/images/service_hero_bg.jpeg'
         pageLinkText='UI-UX-DESIGN'
       />
       <Spacing lg='145' md='80'/>
