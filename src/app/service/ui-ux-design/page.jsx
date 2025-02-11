@@ -27,7 +27,7 @@ export default function ServiceDetailsPage() {
         <Div className="row">
           <Div className="col-lg-4">
             <IconBox
-              icon='/images/icons/uiux_icon_1.svg'
+              icon='/images/icons/service_icon_1.svg'
               title='User-Centered Design'
               subtitle='We create intuitive and user-friendly designs that enhance user engagement and satisfaction.'
             />
@@ -35,7 +35,7 @@ export default function ServiceDetailsPage() {
           </Div>
           <Div className="col-lg-4">
             <IconBox
-              icon='/images/icons/uiux_icon_2.svg'
+              icon='/images/icons/service_icon_2.svg'
               title='Wireframing & Prototyping'
               subtitle='Our design process includes wireframes and interactive prototypes to visualize the user journey.'
             />
@@ -43,7 +43,7 @@ export default function ServiceDetailsPage() {
           </Div>
           <Div className="col-lg-4">
             <IconBox
-              icon='/images/icons/uiux_icon_3.svg'
+              icon='/images/icons/service_icon_3.svg'
               title='Design System & Branding'
               subtitle='We build cohesive design systems and brand identities that ensure consistency across platforms.'
             />
