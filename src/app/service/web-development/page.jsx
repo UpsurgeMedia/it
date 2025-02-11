@@ -55,7 +55,7 @@ export default function ServiceDetailsPage() {
         </Div>
       </Div>
       <Spacing lg='120' md='50'/>
-      <Div className="container">
+      {/* <Div className="container">
         <Div className="row align-items-center">
           <Div className="col-xl-5 col-lg-6">
             <Div className="cs-radius_15 cs-shine_hover_1">
@@ -84,7 +84,7 @@ export default function ServiceDetailsPage() {
             </Div>
           </Div>
         </Div>
-      </Div>
+      </Div> */}
       <Spacing lg='150' md='80'/>
       <Div className="container cs-shape_wrap_4">
         <Div className="cs-shape_4"></Div>

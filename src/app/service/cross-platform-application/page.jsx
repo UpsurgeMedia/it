@@ -55,7 +55,7 @@ export default function ServiceDetailsPage() {
         </Div>
       </Div>
       <Spacing lg='120' md='50'/>
-      <Div className="container">
+      {/* <Div className="container">
         <Div className="row align-items-center">
           <Div className="col-lg-6 offset-xl-1">
             <h2 className="cs-font_50 cs-m0">Comprehensive Cross-Platform Development Services</h2>
@@ -76,7 +76,7 @@ export default function ServiceDetailsPage() {
             </Div>
           </Div>
         </Div>
-      </Div>
+      </Div> */}
       <Spacing lg='150' md='80'/>
       <Div className="container cs-shape_wrap_4">
         <Div className="cs-shape_4"></Div>
