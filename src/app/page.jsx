@@ -178,8 +178,8 @@ export default function Home() {
             <Div className="col-lg-7 offset-xl-1">
               <Div className="cs-half_screen">
                 <VideoModal
-                  videoSrc="https://www.youtube.com/watch?v=1wjBjYzkOiI"
-                  bgUrl="/images/video_bg.jpeg"
+                  videoSrc="https://www.youtube.com/watch?v=nf4LmYvFH24"
+                  bgUrl="https://takefivedigital.com/wp-content/uploads/2024/06/7-of-Lynchburgs-Best-Small-Business-Websites-3.png"
                   variant="cs-style1 cs-size1"
                 />
               </Div>
@@ -197,11 +197,11 @@ export default function Home() {
       {/* Start Projects Section */}
       <Spacing lg="145" md="80" />
       <Div className="container">
-        <SectionHeading
+        {/* <SectionHeading
           title="Portfolio to explore"
           subtitle="Latest Projects"
           variant="cs-style1 text-center"
-        />
+        /> */}
         <Div className="row">
           <PortfolioPage
             portfolioData={portfolioData}
@@ -215,7 +215,7 @@ export default function Home() {
       <Div className="container">
         <SectionHeading
           title="Our reputed partner"
-          subtitle="Top Clients"
+          subtitle="Valued By"
           variant="cs-style1 text-center"
         />
         <Spacing lg="70" md="45" />

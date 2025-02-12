@@ -17,7 +17,7 @@ export default function VideoModal({ videoSrc, bgUrl, variant }) {
   return (
     <>
       <Div
-        className={`cs-video_block ${
+        className={`cs-video_block me-5 ${
           variant ? variant : 'cs-style1'
         } cs-video_open cs-bg`}
         style={{ backgroundImage: `url(${bgUrl})` }}
