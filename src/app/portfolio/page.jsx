@@ -8,9 +8,36 @@ import Spacing from "../ui/Spacing";
 
 const portfolioData = [
   {
+    title: "Daughters of Banaras",
+    href: "/portfolio/portfolio-details",
+    src: "/images/portfolio/daughtersofbanaras.png",
+    category: "web_development",
+    btnLink: "/daughtersbanaras",
+    link: "https://daughtersofbanaras.com/",
+    btnText: "View Project",
+  },
+  {
+    title: "SalesTown CRM APP",
+    href: "/portfolio/portfolio-details",
+    src: "/images/portfolio/salestown.png",
+    category: "app_development",
+    btnLink: "/salestown",
+    link: "https://play.google.com/store/apps/details?id=com.crm.salestown&pcampaignid=web_share",
+    btnText: "View Project",
+  },
+  {
+    title: "KCIA Influencer Academy",
+    href: "/portfolio/portfolio-details",
+    src: "/images/portfolio/kcia.png",
+    category: "web_development",
+    btnLink: "/kcia",
+    link: "https://ecommerce.upsurgemedia.in",
+    btnText: "View Project",
+  },
+  {
     title: "Articult",
     href: "/portfolio/portfolio-details",
-    src: "/images/portfolio/articult.PNG",
+    src: "/images/portfolio/articult_img.png",
     category: "web_development",
     btnLink: "/articult",
     link: "https://articult.in/",
@@ -33,7 +60,7 @@ const portfolioData = [
     btnLink: "/kicksandco",
     link: "https://www.kicksandco.in/",
     btnText: "View Project",
-  },
+  }
 ];
 
 export default function PortfolioPage() {
